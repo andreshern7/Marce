@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+:root {
+  --red-color: #db2e3a;
+  --blue-color: #4472c4;
+  --font-color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  /* font-size: 20px; */
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+body {
+  background-color: var(--red-color);
+  color: var(--font-color);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.c__img {
+  max-width: 200px;
+  width: 100%;
+  border: 5px solid var(--font-color);
+  border-radius: 50%;
+  /* box-shadow: 0 0 0 4px #fff; */
+}
+
+.not_border {
+  border: 1px solid rgb(255, 0, 140);
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--font-color);
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid var(--font-color);
+  border-radius: 5px;
+  color: var(--font-color);
+  /* padding: 5px; */
+}
+
+.ov-container {
+  position: relative;
+  max-width: 350px;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+
+.question-container > * {
+  margin: 0;
+  /* width: 100%; */
+}
+
+.first {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 100px;
+  z-index: -10;
+  opacity: 90%;
+}
+
+.second {
+  position: absolute;
+  left: 30px;
+  top: 195px;
+  width: 100px;
+  z-index: -10;
+}
+
+.third {
+  position: absolute;
+  right: -30px;
+  top: 1px;
+  /* width: 100px; */
+  /* z-index: -10; */
+}
+.third p {
+  text-align: start;
+  margin-left: 50px;
+}
+
+#spotify-code {
+  max-width: 300px;
+  width: 80%;
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.final-content {
+  margin-top: 1rem;
+}
+
+.final-content > * {
+  margin: 0;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎂Happy Birthday Marce🎂</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>FELIZ CUMPLEAÑOS<br />MARCE</h1>
+    <div class="ov-container" style="max-width: 400px">
+      <div class="question-container first">
+        <img
+          class="c__img not_border"
+          src="static/1.wha-heart.png"
+          alt="whatsapp-icon"
+        />
+        <h3 class="c__question">Primera Conversación</h3>
+        <p>21-01-2023</p>
+      </div>
+      <div class="question-container">
+        <img class="c__img" src="static/2.kiss.png" alt="couple" />
+        <h3 class="c__question">Primer Beso</h3>
+        <input
+          class="c__answer"
+          type="date"
+          min="2023-04-01"
+          max="2023-04-30"
+        />
+        <button type="button">✔</button>
+      </div>
+      <div class="question-container third" style="display: none">
+        <img class="c__img" src="static/3.final.png" alt="couple" />
+        <p>FORMULARIO POR WHATSAPP ESCRIBE AL: 3143906291</p>
+      </div>
+    </div>
+    <script>
+      const first_question = document.querySelector("input");
+      document.querySelector("button").addEventListener("click", () => {
+        console.log(first_question);
+        console.log(first_question.value);
+        if (first_question.value == "2023-04-24") {
+          alert("🥳Correcto, continuemos🥳");
+          window.location.href = "./index3MHB.html";
+        } else {
+          alert("😣La decepcion my girl😣");
+        }
+      });
+    </script>
+  </body>
+</html>
